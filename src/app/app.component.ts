@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world';
-  name :string="";
-  age=0;
-
-  save(){
-    console.log(this.name);
-    console.log(this.age);
-  }
+  title = 'HelloProject';
 }

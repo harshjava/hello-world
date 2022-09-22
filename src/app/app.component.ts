@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+  name :string="";
+  age=0;
+
+  save(){
+    console.log(this.name);
+    console.log(this.age);
+  }
 }
